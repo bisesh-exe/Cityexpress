@@ -39,12 +39,12 @@ function Navbar() {
                 <a className="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <ul className="navbar-nav">
+            <ul className="navbar-nav" style={{paddingRight: 30}}>
               <li className="nav-item">
                 <a className="nav-link" href="#">Login</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Signup</a>
+                <a className="nav-link" href="#" style={{backgroundColor: 'Red'}}>Signup</a>
               </li>
             </ul>
           </div>

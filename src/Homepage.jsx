@@ -70,16 +70,13 @@ function Homepage() {
                   </Input>
                 </FormGroup>
                 <FormGroup>
-                  <Label>Conversion Rate:</Label>
-                  <p className="form-control-static">{conversionRate}</p>
+                  <Label>Conversion Rate: {conversionRate}</Label>
                 </FormGroup>
                 <FormGroup>
-                  <Label>Service Fee:</Label>
-                  <p className="form-control-static">{serviceFee}</p>
+                  <Label>Service Fee: {serviceFee}</Label>
                 </FormGroup>
                 <FormGroup>
-                  <Label>Total Transfer Amount:</Label>
-                  <p className="form-control-static">${transferAmount}</p>
+                <strong><Label>Total Transfer Amount: ${transferAmount}</Label></strong>
                 </FormGroup>
                 <FormGroup>
                   <p className="form-control-static">Arrival: Within 1-2 days</p>
