@@ -27,16 +27,16 @@ function Navbar() {
           <div className="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
             <ul className="navbar-nav me-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Send money</a>
+                <a href="#" class="btn active" role="button" data-bs-toggle="button">Send money</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <a href="#" class="btn" role="button" data-bs-toggle="button">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Features</a>
+                <a href="#" class="btn" role="button" data-bs-toggle="button">Features</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Contact</a>
+                <a href="#" class="btn" role="button" data-bs-toggle="button">Contact</a>
               </li>
             </ul>
             <ul className="navbar-nav" style={{paddingRight: 30}}>
